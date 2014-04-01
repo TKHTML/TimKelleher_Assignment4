@@ -1,0 +1,367 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/** FONT fACES **/
+
+@font-face {
+font-family: gravity;
+src: url('../fonts/Gravity-Book.ttf');
+}
+
+@font-face {
+font-family: science;
+src: url('../fonts/Science-Fair.otf');
+}
+
+body {
+	font-family: "gravity", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'science', Arial, sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+header h1 {
+	font: 0/0;
+	color: transparent;
+	width: 743px;
+	height: 450px;
+	background: url('../images/yew.png');
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	}
+
+h2 {
+	font-family: 'science', Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 32px;
+}
+
+p {
+	line-height: 24px;	
+}
+
+i#navButton{
+	display: none;
+	color: #fcfcfc;
+}
+
+nav {
+	clear: both;
+	font-family: "gravity", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+ul {
+	display: block;
+	background: #1d1d1d;
+	color: #fcfcfc;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+header nav {
+	padding: 0px 520px;
+	font-size: 20px;
+}
+
+
+.container {
+	width:1080px;
+	margin: 0 auto;
+}
+
+
+header {
+	width:100%;
+	height:495px;
+	background-image: url('../images/headbg.png');
+}
+
+section#specs {
+	width: 100%;
+	padding: 70px;
+	background-color: #34393a;
+	height: 495px;
+}
+
+.description {
+	width:533px;
+	float: right;
+	text-align: center;
+	background-color: #34393a;
+}
+
+.camera {
+	width:520px;
+	float: left;
+	padding-left: 40px;
+}
+
+.description p, h2 {
+	color: #fff;
+}
+
+a {
+	color: #f2f2f2;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+section#biglink {
+	float:left;
+	width:100%;
+	background-color: #fff;
+	color: #fff;
+	padding: 70px;
+	height: 550px;
+	background-image: url('../images/banner.jpg');
+}
+
+section#fllink {
+	float:left;
+	width:100%;
+	background-color: #fff;
+	color: #fff;
+	padding: 70px;
+	height: 550px;
+	background-image: url('../images/flick-banner.jpg');
+}
+
+
+.Glink {
+	float:left;
+	width:1080px;
+	color: #fff;
+	padding: 70px;
+	height: 350px;
+}
+
+
+footer {
+	float:left;
+	width:100%;
+	height: 30px;
+	background-color: #1d1d1d;
+	color: #fcfcfc;
+}
+
+footer nav {
+	font-size: 12px;
+}
+
+footer a {
+	font-size: 12px;
+}
+
+/** GALLERY **/
+
+#galnav {
+	width: 100%;
+	height: 100px;
+	background-color: #303435;
+	background-image: none;
+}
+
+#gallery {
+	background-color: #303435;
+	width: 100%;
+}
+
+#gallery img {
+	padding: 5px;
+}
+
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+/** ABOUT PAGE **/
+
+#aboutnav {
+	background-color: #303435;
+	color: #fff;
+	width: 100%;
+	height:395px;
+	background-image: url('../images/nickbg.jpg');
+}
+
+#aboutnav h1 {
+	font-family: 'science', Arial, sans-serif;
+	font-size: 34px;
+	background: none;
+	color: #fcfcfc;
+	padding-top: 35px;
+	padding-left: 150px;
+	clear: all;
+}
+
+#aboutnav p {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+#aboutnav .description {
+	background: none;
+	float: right;
+}
+
+.face {
+	float: left;
+	width: 275px;
+	height: 275px;
+	padding-top: 30px;
+}
+
+
+.ulogo {
+	float: left;
+	width: 300px;
+	height: 165px;
+	padding-top: 30px;
+}
+
+#uber {
+	background-color: #83ba16;
+	width: 100%;
+	height: 250px;
+}
+
+#uber .description {
+	background-color: #83ba16;
+	padding-top: 30px;
+}
+
+#contact {
+	background-color: #1d1d1d;
+	width: 100%;
+	height: 250px;
+	padding-top: 50px;
+}
+
+#contact p {
+	float: left;
+	font-family: "gravity", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	color: #fcfcfc;
+}
+
+fieldset {
+			background-color: #1d1d1d;
+			color: #fcfcfc;
+			border: none;
+		}
+
+label {
+  			font-family: 'FontAwesome', sans-serif;
+  			color: #fcfcfc;
+		}
+
+
+@media only screen and (max-width: 670px) and (min-width: 320px) {
+
+body {
+  font-size: 12px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+header h1 {
+	font: 0/0;
+	color: transparent;
+	width: 580px;
+	height: 384px;
+	background: url('../images/yew-small.png');
+	margin: 0 auto;
+	}
+
+	i#navButton {
+		display: block;
+	}
+
+	header nav {
+		display: none;
+		float: left;
+	}
+
+.camera {
+display: none;
+}
+
+section#biglink {
+	background-image: url('../images/banner-small.jpg');	
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+
+
+body {
+  font-size: 14px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+header h1 {
+	font: 0/0;
+	color: transparent;
+	width: 580px;
+	height: 384px;
+	background: url('../images/yew-small.png');
+	margin: 0 auto;
+	}
+
+	i#navButton {
+		display: block;
+	}
+
+	header nav {
+		display: none;
+		float: left;
+	}
+
+
+.camera {
+display: none;
+}
+
+section#biglink {
+	background-image: url('../images/banner-small.jpg');	
+}
+
+}
+
+
+}
